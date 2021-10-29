@@ -10,8 +10,6 @@ public class Predators extends Animal{
     }
 
 
-
-
     @Override
     public void eat(String food) {
         String bestFood = "meat";
