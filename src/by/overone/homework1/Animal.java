@@ -8,4 +8,12 @@ public class Animal {
     private double weight;
     private String type;
 
+    public Animal(int id, String name, int age, double weight, String type){
+        this.id=id;
+        this.name=name;
+        this.age=age;
+        this.weight=weight;
+        this.type=type;
+    }
+
 }
