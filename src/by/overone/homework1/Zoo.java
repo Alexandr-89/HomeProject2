@@ -11,6 +11,11 @@ public class Zoo {
         getAnimals().add(animal);
     }
 
+    public int sizeAnimal(){
+        int size = getAnimals().size();
+        return size;
+    }
+
     public List<Animal> getAnimals() {
         return animals;
     }
