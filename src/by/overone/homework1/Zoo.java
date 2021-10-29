@@ -21,8 +21,6 @@ public class Zoo {
         getAnimals().set(index, animal);
     }
 
-
-
     public List<Animal> getAnimals() {
         return animals;
     }
