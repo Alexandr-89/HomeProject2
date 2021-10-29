@@ -12,5 +12,14 @@ public class Main {
         Rodents rodent1 = new Rodents(5, "Chip", 3, 0.25, "chipmunk", 4);
         Rodents rodent2 = new Rodents(6, "Dail", 2, 0.2, "chipmunk", 4);
         Rodents rodent3 = new Rodents(7,"Rocfor", 7, 0.2, "mouse", 0.2);
+
+
+        zoo.addAnimal(predator1);
+        zoo.addAnimal(predator2);
+        zoo.addAnimal(herbivore1);
+        zoo.addAnimal(herbivore2);
+        zoo.addAnimal(rodent1);
+        zoo.addAnimal(rodent2);
+       
     }
 }
