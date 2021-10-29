@@ -16,6 +16,13 @@ public class Zoo {
         return size;
     }
 
+
+    public void setAnimal(int index, Animal animal){
+        getAnimals().set(index, animal);
+    }
+
+
+
     public List<Animal> getAnimals() {
         return animals;
     }
