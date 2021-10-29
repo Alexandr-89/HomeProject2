@@ -20,6 +20,13 @@ public class Main {
         zoo.addAnimal(herbivore2);
         zoo.addAnimal(rodent1);
         zoo.addAnimal(rodent2);
-       
+
+
+        predator1.eat("meat");
+        predator1.eat("grass");
+        herbivore1.eat("grass");
+        herbivore1.eat("meat");
+        rodent1.eat("nuts");
+        rodent1.eat("meat");
     }
 }
