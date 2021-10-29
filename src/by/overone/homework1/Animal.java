@@ -1,6 +1,6 @@
 package by.overone.homework1;
 
-public class Animal {
+public abstract class Animal {
 
     private int id;
     private String name;
@@ -15,5 +15,7 @@ public class Animal {
         this.weight=weight;
         this.type=type;
     }
+
+    public abstract void eat(String food);
 
 }
