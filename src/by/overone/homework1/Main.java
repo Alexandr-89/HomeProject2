@@ -31,5 +31,8 @@ public class Main {
         herbivore1.eat("meat");
         rodent1.eat("nuts");
         rodent1.eat("meat");
+
+        int size = zoo.sizeAnimal();
+        System.out.println(size);
     }
 }
