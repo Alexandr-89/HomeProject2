@@ -7,7 +7,9 @@ public class Zoo {
 
     private List<Animal> animals = new ArrayList<>();
 
-
+    public void addAnimal(Animal animal){
+        getAnimals().add(animal);
+    }
 
     public List<Animal> getAnimals() {
         return animals;
