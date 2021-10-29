@@ -21,6 +21,9 @@ public class Main {
         zoo.addAnimal(rodent1);
         zoo.addAnimal(rodent2);
 
+        zoo.setAnimal(5, rodent3);
+        zoo.addAnimal(rodent2);
+
 
         predator1.eat("meat");
         predator1.eat("grass");
