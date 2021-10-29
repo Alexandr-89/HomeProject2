@@ -8,4 +8,12 @@ public class Zoo {
     private List<Animal> animals = new ArrayList<>();
 
 
+
+    public List<Animal> getAnimals() {
+        return animals;
+    }
+
+    public void setAnimals(List<Animal> animals) {
+        this.animals = animals;
+    }
 }
